@@ -5705,6 +5705,9 @@ yamllint:
     xenial: [yamllint]
     yakkety: [yamllint]
     zesty: [yamllint]
+  osx:
+    pip:
+      packages: [yamllint]
 yapf:
   arch: [yapf]
   debian:
