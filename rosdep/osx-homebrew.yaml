@@ -275,6 +275,10 @@ libpcl-all-dev:
   osx:
     homebrew:
       packages: [pcl]
+libpcl-common:
+  osx:
+    homebrew:
+      packages: [pcl]
 libpgm:
   osx:
     homebrew:

@@ -2771,6 +2771,24 @@ libpcl-all-dev:
     xenial: [libpcl-dev]
     yakkety: [libpcl-dev]
     zesty: [libpcl-dev]
+libpcl-common:
+  arch: [pcl]
+  debian:
+    buster: [libpcl-common1.9]
+    jessie: [libpcl-common1.7]
+    stretch: [libpcl-common1.8]
+  fedora: [pcl-devel]
+  freebsd: [libpcl]
+  gentoo: [sci-libs/pcl]
+  openembedded: [pcl@meta-ros]
+  opensuse: [pcl]
+  rhel: [pcl-devel]
+  slackware: [pcl]
+  ubuntu:
+    bionic: [libpcl-common1.8]
+    disco: [libpcl-common1.9]
+    eoan: [libpcl-common1.9]
+
 libpcsclite-dev:
   arch: [pcsclite]
   debian: [libpcsclite-dev]
